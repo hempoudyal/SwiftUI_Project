@@ -11,6 +11,9 @@
 		9921279124484525002F0DD8 /* LoginDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921279024484525002F0DD8 /* LoginDesign.swift */; };
 		9922D9AA24515C5D005108BB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922D9A924515C5C005108BB /* MenuView.swift */; };
 		9922D9D12452BD1D005108BB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922D9D02452BD1D005108BB /* Home.swift */; };
+		9931F4EB249A3F8D00FFEC3F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931F4EA249A3F8D00FFEC3F /* Data.swift */; };
+		9931F4ED249A40B000FFEC3F /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931F4EC249A40B000FFEC3F /* PostList.swift */; };
+		9931F4EF249A454400FFEC3F /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931F4EE249A454400FFEC3F /* DataStore.swift */; };
 		993DDC5A246EF3F600FC98B3 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DDC59246EF3F600FC98B3 /* RingView.swift */; };
 		994FEA892479593E00D180D7 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994FEA882479593E00D180D7 /* Modifiers.swift */; };
 		99598D93247961D700A6AA5D /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99598D80247961D700A6AA5D /* Montserrat-LightItalic.ttf */; };
@@ -50,6 +53,9 @@
 		9921279024484525002F0DD8 /* LoginDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDesign.swift; sourceTree = "<group>"; };
 		9922D9A924515C5C005108BB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		9922D9D02452BD1D005108BB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9931F4EA249A3F8D00FFEC3F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9931F4EC249A40B000FFEC3F /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		9931F4EE249A454400FFEC3F /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		993DDC59246EF3F600FC98B3 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		994FEA882479593E00D180D7 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		99598D80247961D700A6AA5D /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -127,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				99A699952446CD0B0027E7FA /* DesignCodeTut */,
-				99A699942446CD0B0027E7FA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +142,7 @@
 				99A699932446CD0B0027E7FA /* DesignCodeTut.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		99A699952446CD0B0027E7FA /* DesignCodeTut */ = {
@@ -156,6 +162,10 @@
 				994FEA882479593E00D180D7 /* Modifiers.swift */,
 				998FF28D24879D92009DA227 /* CourseList.swift */,
 				9921279024484525002F0DD8 /* LoginDesign.swift */,
+				9931F4EA249A3F8D00FFEC3F /* Data.swift */,
+				9931F4EE249A454400FFEC3F /* DataStore.swift */,
+				9931F4EC249A40B000FFEC3F /* PostList.swift */,
+				99A699942446CD0B0027E7FA /* Products */,
 				99598D7F247961D700A6AA5D /* Montserrat */,
 				99A6999C2446CD0E0027E7FA /* Assets.xcassets */,
 				99A699A12446CD0E0027E7FA /* LaunchScreen.storyboard */,
@@ -264,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				993DDC5A246EF3F600FC98B3 /* RingView.swift in Sources */,
+				9931F4EB249A3F8D00FFEC3F /* Data.swift in Sources */,
+				9931F4EF249A454400FFEC3F /* DataStore.swift in Sources */,
 				9922D9AA24515C5D005108BB /* MenuView.swift in Sources */,
 				9907F0B024540B7F00142ABF /* HomeView.swift in Sources */,
 				998492732461CB980007CAAE /* UpdateDetail.swift in Sources */,
@@ -273,6 +285,7 @@
 				99A699992446CD0B0027E7FA /* SceneDelegate.swift in Sources */,
 				99849295246307920007CAAE /* UpdateStore.swift in Sources */,
 				99A6999B2446CD0B0027E7FA /* ContentView.swift in Sources */,
+				9931F4ED249A40B000FFEC3F /* PostList.swift in Sources */,
 				9984929724630D2E0007CAAE /* TabBar.swift in Sources */,
 				9922D9D12452BD1D005108BB /* Home.swift in Sources */,
 				9921279124484525002F0DD8 /* LoginDesign.swift in Sources */,
